@@ -1,0 +1,589 @@
+
+/*-- Reset-Code --*/
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+	article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+	ol,ul{list-style:none;margin:0px;padding:0px;}
+	blockquote,q{quotes:none;}
+	blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+	table{border-collapse:collapse;border-spacing:0;}
+	/* start editing from here */
+	a{text-decoration:none;}
+	.txt-rt{text-align:right;}/* text align right */
+	.txt-lt{text-align:left;}/* text align left */
+	.txt-center{text-align:center;}/* text align center */
+	.float-rt{float:right;}/* float right */
+	.float-lt{float:left;}/* float left */
+	.clear{clear:both;}/* clear float */
+	.pos-relative{position:relative;}/* Position Relative */
+	.pos-absolute{position:absolute;}/* Position Absolute */
+	.vertical-base{vertical-align:baseline;}/* vertical align baseline */
+	.vertical-top{vertical-align:top;}/* vertical align top */
+	nav.vertical ul li{display:block;}/* vertical menu */
+	nav.horizontal ul li{display: inline-block;}/* horizontal menu */
+	img{max-width:100%;}
+/*-- //Reset-Code --*/
+body {
+	background:#232323;
+    background: url(../images/bg1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	background-attachment: fixed;
+    background-position: center;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+h1{
+	color:#fff;
+	font-size:40px;
+	text-align:center;
+	margin-top:40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.agile-its{
+	width:35%;
+	margin:40px auto;
+	background:rgba(16, 16, 16, 0.48);
+
+}
+h2 {
+    color: #fff;
+    padding: 25px 0 0;
+    text-align: center;
+    font-size: 24px;
+}
+.agile-its p {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #00bcd4;
+}
+a {
+    color: #FFFFFF;
+}
+.w3layouts{
+	padding:30px 50px 40px;
+}
+.w3layouts p{
+	font-size:14px;
+	line-height:27px;
+	color:#000;
+	margin-bottom:10px;
+}
+.agileinfo{
+	position:relative;
+}
+input[type="submit"]{
+    width: 100%;
+    background: #F44336;
+    border: none;
+    padding: 12px 0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    -webkit-transition: 0.5s all; /* Safari */
+    transition:  0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition:0.5 all;
+	-o-transition:0.5s all;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.wthreesubmitaits {
+    width: 60%;
+    margin: 1em auto 0;
+}
+input[type="submit"]:hover {
+    background: #146eb4;
+}
+.footer p{
+	text-align:center;
+	color:#fff;
+	margin-bottom:40px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer p a{
+	color:#fff;
+}
+.footer p a:hover{
+	text-decoration:underline;
+}
+
+label {
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: .7em;
+    letter-spacing: 1px;
+    display: block;
+    text-transform: capitalize;
+}
+
+input[type="text"], input[type="email"], select, select.dropdown{
+    width: 96%;
+    padding: 0.6em;
+	border: 1px solid #06ee19;
+    font-size: .9em;
+	letter-spacing:.5px;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+select {
+    width: 100%;
+    float: left;
+    margin-right: 1em;
+    color: rgb(4, 224, 77);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.last select {
+    margin-right: 0em;
+}
+.w3_agileits_main_grid_left_l {
+    float: left;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+.w3_agileits_main_grid_left_l h3 {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+	text-transform:uppercase;
+}
+.w3_agileits_main_grid_left_r {
+    float: none;
+    margin-left: 7em;
+    margin-top: .6em;
+}
+.agileinfo_radio_button {
+    float: left;
+    margin-left: 2em;
+}
+.agileinfo_radio_button:first-child {
+    margin-left: 0;
+}
+label.radio, .checkbox {
+    font-size: 15px;
+    font-weight: 600;
+    color: #484848;
+    padding-left: 25px;
+    margin: 0;
+    position: relative;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+.checkbox input, .radio input {
+    position: absolute;
+    left: -9999px;
+}
+.radio span, .checkbox span {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    outline: none;
+    background: #00BCD4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    cursor: pointer;
+}
+.radio input + span:after, .checkbox input + span:after {
+    content: '';
+    top: 3px;
+    left: 3px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #fff !important;
+}
+.radio input:checked + span:after {
+    opacity: 1;
+}
+.checkbox input + span:after, .radio input + span:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+/*-- checkbox --*/
+.wthree-text label {
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    font-weight: 600;
+}
+.radio i.fa {
+    padding-right: .5em;
+    color: #F44336;
+    font-size: 25px;
+    vertical-align: middle;
+}
+input.checkbox {
+    background: #146eb4;
+	cursor: pointer;
+    width: 1em;
+    height: 1em;
+}
+input.checkbox:before {
+	content: "";
+	position: absolute;
+	width: 1.2em;
+	height: 1.2em;
+	background: inherit;
+	cursor: pointer;
+}
+input.checkbox:after {
+	content: ""; 
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 1;
+	width: 1.2em;
+	height: 1.2em;
+	border: 1px solid #fff; 
+	-webkit-transition: .4s ease-in-out;
+	-moz-transition: .4s ease-in-out;
+	-o-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+input.checkbox:checked:after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	height: .5rem;
+	border: 1px solid #fff;
+	border-top-color: transparent;
+	border-right-color: transparent;
+}
+.anim input.checkbox:checked:after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	height: .5rem;
+	border-color: transparent;
+	border-right-color: transparent; 
+	animation: .4s rippling .4s ease;
+	animation-fill-mode: forwards;
+}
+@keyframes rippling {
+	50% {
+		border-left-color: #fff;
+	}
+	100% {
+		border-bottom-color: #fff;
+		border-left-color: #fff;
+	}
+} 
+.anim span {
+    padding-left: .5em;
+    vertical-align: top;
+}
+input[type="file"] {
+    position: absolute;
+    top: 0px;
+    left: 23%;
+    padding: 8px 5px;
+    opacity: 0;
+    cursor: pointer;
+}
+/*-- //checkbox --*/  
+
+/* responsive design */
+@media screen and (max-width: 1920px) {
+	h1 {
+		margin-top: 100px;
+	}
+}
+@media screen and (max-width: 1680px) {
+	h1 {
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width: 1600px) {
+	h1 {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.agile-its {
+		width: 37%;
+	}
+}
+@media screen and (max-width: 1366px) {
+	input[type="file"] {
+		left: 18%;
+	}
+	.agile-its {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.agile-its {
+		width: 42%;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.agile-its {
+		width: 50%;
+	}
+	input[type="text"], input[type="email"], select, select.dropdown {
+    width: 95.5%;
+}
+}
+@media screen and (max-width: 1050px) {
+	.agile-its {
+		width: 52%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.agile-its {
+		width: 54%;
+	}
+}
+@media screen and (max-width: 991px) {
+	.agile-its {
+		width: 55%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.agile-its {
+		width: 60%;
+	}
+}
+@media screen and (max-width: 800px) {
+	h1 {
+		font-size: 35px;
+	}
+	.agile-its {
+		width: 66%;
+	}
+	h2 {
+		padding: 25px 0 0;
+		font-size: 25px;
+	}
+	.w3layouts {
+		padding: 30px 40px 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.w3layouts p {
+		font-size: 13.3px;
+	}
+	.agile-its {
+		width: 68%;
+	}
+	label {
+		font-size: .9em;
+	}
+	.w3_agileits_main_grid_left_l h3 {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 736px) {
+	.w3layouts {
+		padding: 30px;
+	}
+}
+@media screen and (max-width: 667px) {
+	.agile-its {
+		width: 76%;
+	}
+	h1 {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.agile-its {
+		width: 76%;
+	}
+	select {
+		width: 30.8%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.agile-its {
+		width: 82%;
+	}
+	.agile-its {
+		margin: 30px auto;
+	}
+	.footer p {
+		font-size: 14px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+	select {
+		width: 30.8%;
+	}
+}
+@media screen and (max-width: 568px) {
+	.agile-its {
+		width: 85%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.agile-its {
+		width: 90%;
+	}
+	.footer p {
+		width: 90%;
+		margin: 20px auto;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	h1 {
+		font-size: 27px;
+		letter-spacing: 1px;
+	}
+	select {
+    width: 30.5%;
+}
+input[type="text"], input[type="email"] {
+    width: 94.5%;
+}
+}
+@media screen and (max-width: 414px) {
+	h1 {
+		font-size: 25px;
+	}
+	.agile-its {
+		width: 96%;
+	}
+	.w3layouts {
+		padding: 25px;
+	}
+	.footer p {
+		font-size:14px;
+	}
+	.wthree-text label {
+		font-size: 0.85em;
+	}
+	.w3_agileits_main_grid_left_r {
+		margin-left: 6em;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.agile-its p {
+		font-size: 14px;
+	}
+	input[type="text"], input[type="email"] {
+    width: 94%;
+	}
+	select {
+    margin-right: 0.9em;
+}
+}
+@media screen and (max-width: 384px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.w3layouts {
+		padding: 22px;
+	}
+	.radio i.fa {
+		padding-right: .3em;
+		font-size: 21px;
+	}
+	input[type="submit"] {
+		padding: 10px 0;
+		font-size: 15px;
+	}
+	select {
+    margin-right: 0.85em;
+}
+}
+@media screen and (max-width: 375px) {
+	.w3_agileits_main_grid_left_r {
+		margin-left: 5em;
+	}
+}
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 22px;
+		margin-top: 25px;
+		letter-spacing: 0px;
+	}
+	h2{
+		font-size:17px;
+	}
+	.agile-its {
+		width: 96%;
+		margin: 20px auto 0;
+	}
+	.w3_agileits_main_grid_left_r {
+		margin-left: 4.2em;
+	}
+	label {
+		font-size: .8em;
+	}
+	label.radio, .checkbox {
+		font-size: 14px;
+		padding-left: 20px;
+	}
+	.agileinfo_radio_button {
+		margin-left: 1em;
+	}
+	.radio span, .checkbox span {
+		width: 12px;
+		height: 12px;
+	}
+	.radio input + span:after, .checkbox input + span:after {
+		top: 2px;
+		left: 2px;
+		width: 8px;
+		height: 8px;
+	}
+	select {
+		width: 33%;
+		font-size: 14px;
+	}
+	.middle select {
+    width: 30.3%;
+}
+	.last select {
+		width: 27%;
+	}
+	.footer p {
+		font-size: 13px;
+	}
+	.w3_agileits_main_grid_left_l h3 {
+		font-size: 14px;
+	}
+	 select, select.dropdown {
+    padding: 0.6em 0.2em;
+}
+input[type="text"], input[type="email"] {
+    width: 92%;
+}
+}
